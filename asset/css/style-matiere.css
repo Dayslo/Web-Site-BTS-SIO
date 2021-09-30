@@ -1,0 +1,284 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+
+
+
+body {
+    margin: 0px;
+    padding: 0px;
+    font-family: 'Poppins', sans-serif;
+}
+
+/* Top Page */
+header {
+    height: auto;
+    background: linear-gradient(#3362cc, #5388ff);
+}
+
+/* Navigation */
+header nav {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    background-color: white;
+    box-shadow: 0px 0px 1.5px rgb(39, 39, 39);
+}
+header nav img {
+    height: 75px;
+    margin-left: 67px;
+}
+
+header nav .logo a { 
+    display: flex;
+    color: black;
+    text-align: center;
+    padding: 25px 20px;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+header .onglet {
+    margin-right: 70px;
+}
+
+nav .onglet ul {
+    display: flex;
+    list-style-type: none;
+    margin: 0px;
+    padding: 0px;
+    overflow: hidden;
+    flex: 1 1 40rem;
+}
+
+header nav .onglet li a{
+    display: flex;
+    color: black;
+    text-align: center;
+    padding: 25px 20px;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+header nav .onglet li a:hover{
+    display: flex;
+    background-color: #3362cc;
+    color: white;
+    margin: auto;
+    padding: auto;
+}
+
+/* Martiere */
+section {
+    height: 866px;
+    background: linear-gradient(#3362cc, #5388ff);
+}
+section .matiere-haut {
+    display: flex;
+    margin-left: 50px;
+    margin-right: 50px;
+    align-items: baseline;
+    justify-content: space-around;
+}
+section .matiere-haut .heure {
+    margin: 0;
+}
+section .matiere-haut .cours {
+    margin-bottom: 0;
+}
+
+section .cejm {
+    background-color: white;
+    border-radius: 80px;
+    margin: 50px;
+    padding: 50px;
+    box-shadow: 0px 0px 30px rgb(29, 29, 29);
+}
+section .cejm img {
+    height: 150px;
+}
+ section .cejm h4 {
+     text-align: center;
+}
+section .anglais {
+    background-color: white;
+    border-radius: 80px;
+    margin: 50px;
+    padding: 50px;
+    box-shadow: 0px 0px 30px rgb(29, 29, 29);
+}
+section .anglais img {
+    height: 150px;
+}
+section .anglais h4 {
+    text-align: center;
+}
+section .math {
+    background-color: white;
+    border-radius: 80px;
+    margin: 50px;
+    padding: 50px;
+    box-shadow: 0px 0px 30px rgb(29, 29, 29);
+}
+section .math img {
+    height: 150px;
+}
+section .math h4 {
+    text-align: center;
+}
+section .culture{
+    background-color: white;
+    border-radius: 80px;
+    margin: 50px;
+    padding: 50px;
+    box-shadow: 0px 0px 30px rgb(29, 29, 29);
+}
+section .culture img {
+    height: 150px;
+}
+section .culture h4 {
+    text-align: center;
+}
+section .accompagnement {
+    background-color: white;
+    border-radius: 80px;
+    margin: 50px;
+    padding: 50px;
+    box-shadow: 0px 0px 30px rgb(29, 29, 29);
+}
+section .accompagnement img {
+    height: 150px;
+}
+section .accompagnement h4 {
+    text-align: center;
+}
+
+section .matiere-bas {
+    display: flex;
+    margin-left: 50px;
+    margin-right: 50px;
+    align-items: baseline;
+    justify-content: space-around;
+}
+section .matiere-bas .heure {
+    margin: 0;
+}
+section .matiere-bas .cours {
+    margin-bottom: 0;
+}
+
+section .reseaux {
+    background-color: white;
+    border-radius: 80px;
+    margin: 50px;
+    padding: 50px;
+    box-shadow: 0px 0px 30px rgb(29, 29, 29);
+}
+section .reseaux img {
+    height: 150px;
+}
+section .reseaux h4 {
+    text-align: center;
+}
+section .developpement {
+    background-color: white;
+    border-radius: 80px;
+    margin: 50px;
+    padding: 50px;
+    box-shadow: 0px 0px 30px rgb(29, 29, 29);
+}
+section .developpement img {
+    height: 150px;
+}
+section .developpement h4 {
+    text-align: center;
+}
+section .base-donnee {
+    background-color: white;
+    border-radius: 80px;
+    margin: 50px;
+    padding: 50px;
+    box-shadow: 0px 0px 30px rgb(29, 29, 29);
+}
+section .base-donnee img {
+    height: 150px;
+}
+section .base-donnee h4 {
+    text-align: center;
+}
+section .securiter {
+    background-color: white;
+    border-radius: 80px;
+    margin: 50px;
+    padding: 50px;
+    box-shadow: 0px 0px 30px rgb(29, 29, 29);
+}
+section .securiter img {
+    height: 150px;
+}
+section .securiter h4 {
+    text-align: center;
+}
+section .certification {
+    background-color: white;
+    border-radius: 80px;
+    margin: 50px;
+    padding: 50px;
+    box-shadow: 0px 0px 30px rgb(29, 29, 29);
+}
+section .certification img {
+    height: 150px;
+}
+section .certification h4 {
+    text-align: center;
+}
+
+/* Footer */
+
+footer{
+    bottom: 0;
+    left: 0;
+    right: 0;
+    height: auto;
+    width: 100vw;
+    color: black;
+    width: 100%;
+}
+.footer-content{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    text-align: center;
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+.footer-content h3{
+    font-size: 1.8rem;
+    font-weight: 400;
+    text-transform: capitalize;
+    line-height: 3rem;
+    color: black;
+}
+.footer-content p{
+    max-width: 500px;
+    margin: 10px auto;
+    line-height: 28px;
+    font-size: 14px;
+    color: black;
+}
+.footer-bottom{
+    background: linear-gradient(#3362cc, #5388ff);
+    padding: 20px 0;
+    text-align: center;
+    width: 100%;
+}
+.footer-bottom p{
+    font-size: 14px;
+    word-spacing: 2px;
+    text-transform: capitalize;
+    color: white;
+}
+.footer-bottom span{
+    text-transform: uppercase;
+    opacity: .4;
+    font-weight: 200;
+}

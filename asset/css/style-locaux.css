@@ -1,0 +1,144 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+
+
+
+body {
+    margin: 0px;
+    padding: 0px;
+    font-family: 'Poppins', sans-serif;
+}
+
+/* Top Page */
+header {
+    height: auto;
+}
+
+/* Navigation */
+header nav {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    background-color: white;
+    box-shadow: 0px 0px 1.5px rgb(39, 39, 39);
+}
+header nav img {
+    height: 75px;
+    margin-left: 67px;
+}
+
+header nav .logo a { 
+    display: flex;
+    color: black;
+    text-align: center;
+    padding: 25px 20px;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+header .onglet {
+    margin-right: 70px;
+}
+
+nav .onglet ul {
+    display: flex;
+    list-style-type: none;
+    margin: 0px;
+    padding: 0px;
+    overflow: hidden;
+    flex: 1 1 40rem;
+}
+
+header nav .onglet li a{
+    display: flex;
+    color: black;
+    text-align: center;
+    padding: 25px 20px;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+header nav .onglet li a:hover{
+    display: flex;
+    background-color: #3362cc;
+    color: white;
+    margin: auto;
+    padding: auto;
+}
+ /* Stage */ 
+
+section {
+    background: linear-gradient(#3362cc, #5388ff);
+}
+
+h4, p, ul, a{
+    color: white
+}
+
+.colonne-locaux {
+    display: flex;
+    padding-top: 70px;
+    padding-bottom: 70px;
+}
+div .logo-locaux {
+    margin:auto;
+    margin-left: max(100px);
+    margin-right: max(50px);
+}
+section .logo-locaux img {
+    background-color: white;
+    margin-right: 50px;
+    padding: 50px;
+    border-radius: 50px;
+    box-shadow: 0px 0px 30px rgb(29, 29, 29);
+	height: 250px;
+}
+/* Footer */
+
+footer{
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    height: auto;
+    width: 100vw;
+    color: black;
+}
+.footer-content{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    text-align: center;
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+.footer-content h3{
+    font-size: 1.8rem;
+    font-weight: 400;
+    text-transform: capitalize;
+    line-height: 3rem;
+    color: black;
+}
+.footer-content p{
+    max-width: 500px;
+    margin: 10px auto;
+    line-height: 28px;
+    font-size: 14px;
+    color: black;
+}
+.footer-bottom{
+    background: linear-gradient(#3362cc, #5388ff);
+    width: 100vw;
+    padding: 20px 0;
+    text-align: center;
+}
+.footer-bottom p{
+    font-size: 14px;
+    word-spacing: 2px;
+    text-transform: capitalize;
+}
+.footer-bottom span{
+    text-transform: uppercase;
+    opacity: .4;
+    font-weight: 200;
+}
